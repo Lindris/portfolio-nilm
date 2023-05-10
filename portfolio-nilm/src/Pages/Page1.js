@@ -7,14 +7,14 @@ export const Page1 = () =>
     return(
       <div className="App">
            <div className="grid-container">
-             <header className="App-header">
-               <div className="Box1">
+             {/* <header className="App-header"> */}
+               <div className="Box1">Box1
                  <h1>
                    Anna <br></br> Nilm
                  </h1>
                </div>
                <div className="box2">
-                 <img src='image1.jpg' className="girl box2" alt="girl"></img>
+                 <img src='girl.png' className="girl box2" alt="girl"></img>
                </div>
                <button onClick={()=>navigate('about')}  className="about">About me</button>
                <div className="box4">
@@ -23,7 +23,7 @@ export const Page1 = () =>
                <div className="box5">
                  <h3 className="contact">Contact Me </h3>
                </div>
-               </header>
+               {/* </header> */}
                </div>
                </div>
     )     

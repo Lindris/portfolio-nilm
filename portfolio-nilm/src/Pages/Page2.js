@@ -7,8 +7,8 @@ import { useNavigate}  from "react-router-dom";
      <div className="Page2">
        <div></div>
        <div className="grid-container">
-         <div className="Image Box3">
-           <img src="image2.jpg" className="desk" alt="desk"></img>
+         <div className="Image Box3">Box 3
+           <img src="desk.png" className="desk" alt="desk"></img>
          </div>
          <div className="Background Box1">
            <h3 className="Background-heading">Background</h3>
