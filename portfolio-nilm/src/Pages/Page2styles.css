@@ -2,11 +2,13 @@
  font-family: Mali;
  src: url("https://fonts.googleapis.com/css2?family=League+Spartan:@300&family=Unboundedwght@500&family=Mali:wght@500;600&family=Roboto:wght&display=swap")
 }
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
  .App-logo {
    animation: App-logo-spin infinite 20s linear;
  }
-}
+} */
+
 body {
  font-family: 'Roboto', sans-serif;
   margin-left:0em;
@@ -14,40 +16,34 @@ body {
  margin-bottom: 0em;
  min-height: 100vh;
  min-width: 100vh;
+ max-height: 100vh;
 }
+
+
+
+
 .grid-container {
  display: grid;
  grid-template-columns:1fr 1fr 1fr;
- grid-column-gap:1em;
+ grid-column-gap:2em;
  grid-row-gap: 1em;
- grid-template-rows: 2fr 1fr ;
-align-items: center;
-justify-content: center;
- grid-gap: 2em;
+ grid-template-rows: 1fr 1fr 1fr;
+/* align-items:flex-start; */
+/* justify-content:space-between; */
+ grid-gap: 1em;
  /* grid-auto-rows:300px; */
  /* for flexible height to adjust to contents use minmax */
  grid-auto-rows: minmax(200px, auto);
-margin: 0%;
+/* margin: 10%; */
  background-color: #FFFBFF;
- justify-items:center;
- align-items: center;
+ /* justify-items:center;
+ align-items: center; */
 }
-.Box1 {
- grid-column:1/2;
- grid-row: 1/2;
-}
-.Box2 {
-  grid-column: 2/3;
- grid-row: 1/2;
- margin-top: 80px;
-}
-.Box3 {
- grid-row:1/4;
- grid-column: 3;
- align-self: center;
-}
+
+
+
 button {
- grid-row: 2;
+ grid-row: 3;
  grid-column: 1/3;
  background-color: #D3AB9E;
  height: 120px;
@@ -62,25 +58,55 @@ font-weight: 900;
 align-items: right;
 justify-content: right;
 }
-/* .box4 {
- grid-row: 3/4;
- grid-column: 1;
- text-transform: uppercase;
-} */
-/* .box5 {
- grid-row: 3/4;
- grid-column: 2;
- justify-content: left;
- text-transform: uppercase;
-} */
+
+
 /* layout of components in a grid */
 .grid-container > div{
  background-color: #FFFBFF;
- padding: 3em;
+ padding: 7em;
+ margin-top: -200px;
+ /* align-items:flex-start; */
 }
-.App-link {
+
+
+/* 'Background' */
+.Box11 {
+ grid-column:1;
+ grid-row: 2/3;
+}
+
+
+/* 'Expertise */
+.Box12 {
+  grid-column: 2/3;
+ grid-row: 2;
+ margin-top: 0px;
+}
+
+/* image */
+.Box13 {
+ grid-row:1/4;
+ grid-column: 3/4;
+ align-self: center;
+}
+
+
+/* About Me */
+.Box14 {
+ grid-column: 1/3;
+ grid-row: 1;
+ /* align-items: flex-start; */
+}
+
+
+/* .App-link {
  color: #61dafb;
+} */
+
+.AboutMe {
+ Font-size: 160px; 
 }
+
 h3 {
  font-size: 70px;
 font-family:'Roboto' sans-serif;
@@ -89,11 +115,21 @@ font-weight: 9000;
 margin-left: 120px;
 /* margin-top: 200px; */
 }
+
+.Background-heading {
+ font-size: 100px;
+}
+
+
+.expertise {
+ font-size: 100px;
+}
+
 li {
-  font-size: 40px;
+  font-size: 50px;
 }
 p {
-  font-size: 25px;
+  font-size: 45px;
   margin-left: 120px;
 text-align: justify;
 }
