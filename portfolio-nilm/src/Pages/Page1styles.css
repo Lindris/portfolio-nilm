@@ -112,7 +112,7 @@ justify-content: right;
 
 /* button About me */
 .about {
-  margin-top: 600px;
+  margin-top: 500px;
   grid-column: 2/3;
   /* grid-row:2/3; */
 }
@@ -169,13 +169,13 @@ font-size: 20px;
 }
 
 .developer {
-  font-size: 70px;
+  font-size: 60px;
 }
 
 /* contact me text */
 .contact {
   text-decoration: underline;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 
