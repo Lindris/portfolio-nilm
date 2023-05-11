@@ -8,9 +8,9 @@
 
 
 
-.grid-container {
+/* .grid-container {
   display: grid;
-  grid-template-columns:1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr; */
   /* grid-template-columns: repeat(2, 2fr 1fr); */
   /* grid-column-gap:1em;
   grid-row-gap: 1em; */
@@ -22,10 +22,10 @@ justify-content: center;
   /* grid-auto-rows:300px; */
 
   /* for flexible height to adjust to contents use minmax */
-  grid-auto-rows: minmax(200px, auto);
+  /* grid-auto-rows: minmax(200px, auto);
 margin: 0%;
   background-color: #EEE4E1;
-}
+} */
 
 
 /* layout of components in a grid */
