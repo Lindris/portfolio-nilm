@@ -7,10 +7,10 @@ import { useNavigate}  from "react-router-dom";
      <div className="Page2">
        <div></div>
        <div className="grid-container">
-         <div className="Image Box3">Box 3
+         <div className="Image Box13">
            <img src="desk.png" className="desk" alt="desk"></img>
          </div>
-         <div className="Background Box1">
+         <div className="Background Box11">
            <h3 className="Background-heading">Background</h3>
            <div className="Background-list Box1">
              <p>Hi, I am Ana Nilm, experienced teacher with a passion for technology.
@@ -28,7 +28,7 @@ import { useNavigate}  from "react-router-dom";
              <br></br>
            </div>
          </div>
-         <div className="Expertise Box2">
+         <div className="Expertise Box12">
            <h3 className='expertise'>Expertise</h3>
            <ul>
              <li>Bachelor's degree in Education</li><br></br><br></br>
@@ -42,11 +42,11 @@ import { useNavigate}  from "react-router-dom";
              <br></br>
              <li>Proficient in using design tools such as Figma and Adobe XD for prototyping and mockups</li><br></br><br></br>
              <br></br>
-             <li>Familiarity with Agile development methodologies and project management tools such as Trello and Asana.</li><br></br><br></br>
-             <br></br>
+             <li>Familiarity with Agile development methodologies and project management tools such as Trello and Asana.</li>
            </ul>
          </div>
-         <button onClick={()=>navigate(-1)} >Return to Home</button>
+         
+         <button onClick={()=>navigate(-1)} className='home'>Return to Home</button>
        </div>
      </div>
    );

@@ -7,6 +7,8 @@
    animation: App-logo-spin infinite 20s linear;
  }
 }
+
+
 body {
  font-family: 'Roboto', sans-serif;
   margin-left:0em;
@@ -15,102 +17,138 @@ body {
  min-height: 100vh;
  min-width: 100vh;
 }
+
+
 .grid-container {
  display: grid;
- grid-template-columns:1fr 1fr 1fr;
- grid-column-gap:1em;
- grid-row-gap: 1em;
- grid-template-rows: 2fr 1fr ;
-align-items: center;
-justify-content: center;
- grid-gap: 2em;
+ grid-template-columns: 1fr fr 1fr;
+ /* grid-column-gap:3em;
+ grid-row-gap: 1em; */
+ grid-template-rows: 2fr 1fr;
+/* align-items:flex-start;
+justify-content: center; */
+ grid-gap: 8em;
  /* grid-auto-rows:300px; */
  /* for flexible height to adjust to contents use minmax */
  grid-auto-rows: minmax(200px, auto);
-margin: 0%;
+
  background-color: #FFFBFF;
- justify-items:center;
- align-items: center;
+ /* justify-items:center;
+ align-items: center; */
 }
-.Box1 {
+
+
+/* .Box10 {
+  grid-row: 1;
+  grid-column: 1/3;
+} */
+
+.me {
+  font-size: 200px;
+  
+  padding: 0px;
+}
+
+/* Background */
+.Box11 {
  grid-column:1/2;
  grid-row: 1/2;
+ 
 }
-.Box2 {
+
+/* expertise */
+.Box12 {
   grid-column: 2/3;
  grid-row: 1/2;
  margin-top: 80px;
 }
-.Box3 {
- grid-row:1/4;
+
+/* image */
+.Box13 {
+ grid-row:1/3;
  grid-column: 3;
+ /* margin-top: 100px; */
  align-self: center;
 }
+
 button {
  grid-row: 2;
  grid-column: 1/3;
  background-color: #D3AB9E;
- height: 120px;
- width: 250px;
- margin:-10px;
+ height: 160px;
+ width: 330px;
+ margin-top:-350px;
  border-radius: 15%;
  border-width: 5px;
  border-color: #B2967D;
-font-size: 35px;
 font-family:'Roboto' sans-serif;
-font-weight: 900;
+/* font-weight: 900; */
 align-items: right;
 justify-content: right;
 }
-/* .box4 {
- grid-row: 3/4;
- grid-column: 1;
- text-transform: uppercase;
-} */
-/* .box5 {
- grid-row: 3/4;
- grid-column: 2;
- justify-content: left;
- text-transform: uppercase;
-} */
+
+
 /* layout of components in a grid */
 .grid-container > div{
  background-color: #FFFBFF;
  padding: 3em;
 }
-.App-link {
- color: #61dafb;
-}
+
+
+
 h3 {
- font-size: 70px;
+ font-size: 100px;
 font-family:'Roboto' sans-serif;
 /* font-stretch: 20px; */
 font-weight: 9000;
 margin-left: 120px;
 /* margin-top: 200px; */
 }
+
+
+/* bullet points under Expertise */
 li {
   font-size: 40px;
+  text-align: justify;
 }
+
+
+/* paragraphs under Background */
 p {
-  font-size: 25px;
+  font-size: 40px;
   margin-left: 120px;
+  margin-top: 5px;
 text-align: justify;
 }
+
+/* Expertise heading */
 .expertise {
   margin-left: -10px;
-  border-radius: 4px;
-  border-color: black;
+  
+  font-weight: 600px;
+ 
   /* margin-top: 100px; */
+
+
+
+  /* button text - return to home */
 }
 .home {
-  font-size: 22px;
+
+  font-size: 30px;
+  /* font-weight: 3px; */
 }
+
+/* button hover */
 .home:hover {
 background-color:#c3e4e4;
 text-decoration: underline;
 font-weight: 800;
 }
+
+
+
+/* image */
 .desk {
  min-height:100vh;
  max-height: auto;

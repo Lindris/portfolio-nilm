@@ -8,17 +8,17 @@ export const Page1 = () =>
       <div className="App">
            <div className="grid-container">
              {/* <header className="App-header"> */}
-               <div className="Box1">Box1
+               <div className="Box1">
                  <h1>
                    Anna <br></br> Nilm
                  </h1>
                </div>
                <div className="box2">
                  <img src='girl.png' className="girl box2" alt="girl"></img>
-               </div>
+               </div> 
                <button onClick={()=>navigate('about')}  className="about">About me</button>
                <div className="box4">
-                 <h3>Aspiring Web Developer</h3>
+                 <h3 className='developer'>Aspiring Web Developer</h3>
                </div>
                <div className="box5">
                  <h3 className="contact">Contact Me </h3>
